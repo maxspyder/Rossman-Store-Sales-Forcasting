@@ -11,6 +11,6 @@ Dataset includes daily sales information of 1115 Rossman Stores over 31 months f
 For Some Stores there is no datapoints for last 4 months in 2014. 
 
 ### Limitation of this Project
-I have not taken stores dataset into account. which could have been merged with train dataset to build better model and extract better features. 
+have not taken stores dataset into account. which could have been merged with train dataset to build better model and extract better features. 
 
 Forecasting have been done using very small store IDs to showcase various forecasting method performance. Results have not infered for the whole dataset. 

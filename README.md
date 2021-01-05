@@ -1,5 +1,5 @@
 # Rossman-Store-Sales-Forcasting
-This Project contains exploratory data analysis, feature extraction and forecasting using regression &amp; Time-series Methodologies. 
+This Project contains exploratory data analysis, feature extraction and forecasting using regression &amp; Time-series Methodologies (R). 
 
 ### Dataset Information
 URL: https://www.kaggle.com/c/rossmann-store-sales

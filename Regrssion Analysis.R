@@ -97,8 +97,8 @@ fit3 <- snaive(msts1,h=181) #snaive
 
 autoplot(msts1) +
   autolayer(fit1, series="Mean", PI=FALSE) +
-  autolayer(fit2, series="Naïve", PI=FALSE) +
-  autolayer(fit3, series="Seasonal naïve", PI=FALSE) +
+  autolayer(fit2, series="NaÃ¯ve", PI=FALSE) +
+  autolayer(fit3, series="Seasonal naÃ¯ve", PI=FALSE) +
   xlab("Year") + ylab("log(Sales)") +
   ggtitle("Forecasts for Sales") +
   guides(colour=guide_legend(title="Forecast"))
@@ -116,7 +116,7 @@ accuracy(predfit3,Test1)
 
 fit4 <- holt(msts1, damped = TRUE, h=181)
 
-fit5 <- forecast(ma(msts1,30),181)
+fit5 <- forecast(ma(msts1,15),181)
 
 #Auto Arima with low AIC, AICc, BIC value
 

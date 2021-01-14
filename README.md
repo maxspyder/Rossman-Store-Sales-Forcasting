@@ -16,5 +16,8 @@ have not taken stores dataset into account. which could have been merged with tr
 Forecasting have been done using very small store IDs to showcase various forecasting method performance. Results have not infered for the whole dataset. 
 
 ### Results
+presentation: https://docs.google.com/presentation/d/1ySjSQUSJNju9TDOZN-FeK6ObmcEtxVs4djIUOCuPTI0/edit?usp=sharing
 
-### Future Implications
+Modified Penalized Regresion model is recommened for future store sales forecasting. 
+
+Future work can be taking into account non linear models. 

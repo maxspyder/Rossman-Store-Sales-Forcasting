@@ -15,6 +15,14 @@ have not taken stores dataset into account. which could have been merged with tr
 
 Forecasting have been done using very small store IDs to showcase various forecasting method performance. Results have not infered for the whole dataset. 
 
+### Methodologies 
+
+1. Linear regression with crossvalidation is used for feature extraction 
+
+2. regression forecasting includes Linear Regreesion, Penalized Regression, Lasso Regression and a modified version of Penalized Regression. 
+
+3. Time-Series forecasting models includes Naive, seasonal naive, mean average as benachmark models and ARIMA, Holt's linear smoothing, Moving avergare as sophisticated models.
+
 ### Results
 presentation: https://docs.google.com/presentation/d/1ySjSQUSJNju9TDOZN-FeK6ObmcEtxVs4djIUOCuPTI0/edit?usp=sharing
 
